@@ -1,0 +1,15 @@
+.darkmode{
+    .catergories{
+        .catergories__content{
+            color: $color-dark-6;
+        }
+        .catergories__items{
+            background-color: $color-dark-7;
+            border: 1px solid $color-dark-3;
+            box-shadow: 0 3px 1px 0 $color-dark-0;
+            &:hover {
+                box-shadow: 0 0 3px 2px $color-dark-0;
+            }
+        }
+    }
+}

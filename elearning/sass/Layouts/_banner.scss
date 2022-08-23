@@ -1,0 +1,22 @@
+.banner{
+    // background: color position/bg-size bg-reapet
+    background: url('../img/udemy-logo-semi-transparent.svg') 0/30% no-repeat,
+    linear-gradient(61deg,$color-purple-0,$color-blule-1 41%);
+    // background-blend-mode: ; tron mau trong design
+    background-blend-mode: overlay;
+    height: 325px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    h2{
+        @include styleText($color-white-0,$fs-4,$fw-0);
+    }
+    p{
+        color:$color-white-0 ;
+        margin-bottom: 0;
+    }
+    button{
+        margin: $mg-2 + 5 auto;
+    }
+
+}
